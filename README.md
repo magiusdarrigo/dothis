@@ -1,4 +1,4 @@
-# gptsh - Hello, Dave.
+# dothis
 
 <p align="center">
   <a href="https://github.com/shorwood/gptsh">
