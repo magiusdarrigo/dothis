@@ -1,5 +1,5 @@
 {
-  "name": "@magius18/dothis",
+  "name": "dothis",
   "version": "1.0.0",
   "description": "GPT-3 powered shell command generator.",
   "bin": {
