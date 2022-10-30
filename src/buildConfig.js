@@ -1,8 +1,5 @@
-
 //--- Import dependencies.
-const rc = require('rc')
 const defaults = require('lodash/defaults')
-const { name: appName } = require('../package.json');
 
 //--- Build the default options.
 const defaultOptions = {

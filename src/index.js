@@ -3,6 +3,7 @@
 //--- Import dependencies.
 const yargs = require('yargs/yargs')
 const { hideBin } = require('yargs/helpers')
+const robot = require('robotjs')
 const complete = require('./complete')
 const buildConfig = require('./buildConfig')
 const buildPrompt = require('./buildPrompt')
@@ -33,11 +34,14 @@ const appConfig = buildConfig({
 //--- Build the prompt string.
 const prompt = buildPrompt(argv._.join(' '))
 
+//--- spinner
+console.log('\x1b[1;32m%s\x1b[0m', '🧠 Thinking...')
+
 //--- Compute the apporpirate shell command and output it.
 complete(prompt, appConfig).then(outputs => {
 	if (outputs.length == 0) {
 		console.error('cmd not found')
 	} else {
-		process.stdout.write(filterResponseTokens(outputs[0]))
+		robot.typeString(filterResponseTokens(outputs[0]));
 	}
 })

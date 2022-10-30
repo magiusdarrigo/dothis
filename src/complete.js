@@ -1,4 +1,3 @@
-
 //--- Import dependencies.
 const map = require('lodash/map')
 const pick = require('lodash/pick')
@@ -25,7 +24,12 @@ module.exports = async (prompt, config = {}) => {
 	openai.defaults.headers.common['Authorization'] = `Bearer ${secret}`
 
 	//--- Query the GPT-3 API.
-	return await openai.post(`/completions`, {prompt, ...options})
-		.then(res => map(res.data.choices, 'text'))
-		.catch(err => console.error(err.response.data.error.message || err.message))
+	// return await openai.post(`/completions`, {prompt, ...options})
+	// 	.then(res => map(res.data.choices, 'text'))
+	// 	.catch(err => console.error(err.response.data.error.message || err.message))
+	
+	// return a fake promise that resolves to a array of strings
+	return new Promise((resolve, reject) => {
+		resolve(['hi mom'])
+	})
 }
