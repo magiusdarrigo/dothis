@@ -18,7 +18,7 @@ OPENAI_SECRET_KEY=<YOUR_SECRET_KEY>
 
 Or in the `~/.dothis` config file placed in your home directory.
 ```ini
-secret=sk-abc123abc123abc123abc123abc123abc123
+secret=<YOUR_SECRET_KEY>
 ```
 
 
