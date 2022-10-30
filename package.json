@@ -1,6 +1,6 @@
 {
   "name": "@magius18/dothis",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "GPT-3 powered shell command generator.",
   "bin": {
     "dothis": "./src/index.js"
