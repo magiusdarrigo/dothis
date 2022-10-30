@@ -28,8 +28,8 @@ const environmentOptions = {
     secret: process.env.OPENAI_SECRET_KEY,
 }
 
-//--- Get options from .gpt3shrc
-const configOptions = rc(appName, {})
+//--- Get options from .dothis
+const configOptions = rc("dothis", {})
 
 //--- Export the compiled options.
 module.exports = (localOptions = {}) => defaults(
