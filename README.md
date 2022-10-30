@@ -7,7 +7,7 @@ Install node and npm if you don't have it already: https://docs.npmjs.com/downlo
 
 Run this
 ```bash
-sudo npm i -g @magius18/dothis
+npm i -g @magius18/dothis
 ```
 
 You will then have the `dothis` executable in your bin directory.
