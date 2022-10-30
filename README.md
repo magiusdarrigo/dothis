@@ -7,7 +7,7 @@ Install node and npm if you don't have it already: https://docs.npmjs.com/downlo
 
 Run this
 ```bash
-npm i dothis@npm:@magius18/dothis
+npm i -g dothis@npm:@magius18/dothis
 ```
 
 ## • Getting started
