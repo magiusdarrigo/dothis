@@ -18,7 +18,7 @@ module.exports = async (prompt, config = {}) => {
 		'max_tokens', 'temperature', 'top_p',
 		'n', 'stream', 'logprobs', 'echo',
 		'stop', 'presence_penalty', 'frequency_penalty',
-		'best_of', 'logit_bias'
+		'best_of', 'logit_bias', 'model'
 	])
 
 	//--- Set OpenAI Secret API Key.

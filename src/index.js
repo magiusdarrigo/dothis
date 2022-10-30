@@ -3,10 +3,10 @@
 //--- Import dependencies.
 const yargs = require('yargs/yargs')
 const { hideBin } = require('yargs/helpers')
-const uniq = require('lodash/uniq')
 const complete = require('./complete')
 const buildConfig = require('./buildConfig')
 const buildPrompt = require('./buildPrompt')
+const filterResponseTokens = require('./filterResponseTokens')
 
 //--- Parse argv arguments using 'yargs' package.
 const argv = yargs(hideBin(process.argv))
@@ -38,6 +38,6 @@ complete(prompt, appConfig).then(outputs => {
 	if (outputs.length == 0) {
 		console.error('cmd not found')
 	} else {
-		console.log(outputs[0])
+		process.stdout.write(filterResponseTokens(outputs[0]))
 	}
 })

@@ -13,15 +13,12 @@ sudo npm i -g @magius18/dothis
 You will then have the `dothis` executable in your bin directory.
 
 ## • Getting started
-To use this tool, you will need to set [OpenAI API key](https://beta.openai.com/) either as an environment variable.
+To use this tool, you will need to set [OpenAI API key](https://beta.openai.com/) as an environment variable.
 ```bash
-OPENAI_SECRET_KEY=<YOUR_SECRET_KEY>
+export OPENAI_SECRET_KEY=<YOUR_SECRET_KEY>
 ```
 
-Or in the `~/.dothis` config file placed in your home directory.
-```ini
-secret=<YOUR_SECRET_KEY>
-```
+To persist it across sessions, add it to your bash config file.
 
 
 ## • Usage
