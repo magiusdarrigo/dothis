@@ -8,9 +8,9 @@ const { name: appName } = require('../package.json');
 //--- Build the default options.
 const defaultOptions = {
     secret: null,
-    engineId: 'davinci',
+    model: 'text-davinci-002',
     max_tokens: 100,
-    temperature: 0.0,
+    temperature: 0.6,
     top_p: undefined,
     n: undefined,
     stream: undefined,
@@ -21,13 +21,11 @@ const defaultOptions = {
     frequency_penalty: undefined,
     best_of: undefined,
     logit_bias: undefined,
-    platform: process.platform,
 }
 
 //--- Get options from environment variables.
 const environmentOptions = {
     secret: process.env.OPENAI_SECRET_KEY,
-    engineId: process.env.OPENAI_ENGINE_ID,
 }
 
 //--- Get options from .gpt3shrc

@@ -1,7 +1,7 @@
 FROM node:12
 
 #--- Define workdir.
-WORKDIR /workspace/gptsh
+WORKDIR /workspace/dothis
 
 #--- Install dependencies.
 COPY package.json yarn.lock ./
