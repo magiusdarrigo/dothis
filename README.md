@@ -42,7 +42,7 @@ Options:
 ## • Examples
 ```bash
 $ dothis ssh into pod giraffe22 and container poptart73563
-kubectl exec -it giraffe22 -c poptart73563 -- /bin/bash
+> kubectl exec -it giraffe22 -c poptart73563 -- /bin/bash
 ```
 
 ## • Contributing
