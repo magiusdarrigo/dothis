@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: elgohr/Publish-Docker-Github-Action@master
         with:
-          name: shorwood/gptsh
+          name: magiusdarrigo/dothis
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           tag_semver: true

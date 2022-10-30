@@ -7,8 +7,10 @@ Install node and npm if you don't have it already: https://docs.npmjs.com/downlo
 
 Run this
 ```bash
-npm i -g dothis@npm:@magius18/dothis
+sudo npm i -g @magius18/dothis
 ```
+
+You will then have the `dothis` executable in your bin directory.
 
 ## • Getting started
 To use this tool, you will need to set [OpenAI API key](https://beta.openai.com/) either as an environment variable.
@@ -23,7 +25,6 @@ secret=<YOUR_SECRET_KEY>
 
 
 ## • Usage
-
 
 ```
 Usage: dothis <input> [options]
