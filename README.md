@@ -40,9 +40,8 @@ Options:
                                                             [number] [default: 100]
       --temperature     Higher values means the model will take more risks
                                                             [number] [default: 0.6]
-      --model           the GPT-3 model                                    [string]
-      -n                Number of completions to generate    
-                                                              [number] [default: 1]
+      --model           the GPT-3 model                     
+                                             [string] [default: "text-davinci-002"]
       --help            Show help                                         [boolean]
 ```
 
