@@ -7,7 +7,7 @@ Install node and npm if you don't have it already: https://docs.npmjs.com/downlo
 
 Run this
 ```bash
-npm i -g @magius18/dothis
+npm i -g magius-dothis
 ```
 
 You will then have the `dothis` executable in your bin directory.
@@ -39,7 +39,8 @@ Options:
 ## • Examples
 ```bash
 $ dothis ssh into pod giraffe22 and container poptart73563
-> kubectl exec -it giraffe22 -c poptart73563 -- /bin/bash
+> 🧠 Thinking...
+$ kubectl exec -it giraffe22 -c poptart73563 -- /bin/bash
 ```
 
 ## • Contributing
