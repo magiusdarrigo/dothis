@@ -58,6 +58,12 @@ $ dothis give the file frog836.txt read and write permissions
 $ chmod a+rw frog836.txt
 ```
 
+```bash
+$ dothis add the contents of ./hello.txt to ../testdir/world.sh
+> 🧠 Thinking...
+$ cat ./hello.txt >> ../testdir/world.sh
+```
+
 ## • Pay attention!
 GPT-3 generated commands will not always be correct. Make sure to read/edit the generated command before executing.
 
