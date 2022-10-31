@@ -1,6 +1,6 @@
 # dothis
 
-**dothis** - a GPT-3 powered shell command generator. It translates natural language commands into shell commands. Repository originally forked from @shorwood's **gptsh**.
+**dothis** - a GPT-3 powered shell command generator. It translates natural language commands into shell commands. Project originally inspired by @shorwood's **gptsh**.
 
 ## • Installation
 Install node and npm if you don't have it already: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
