@@ -52,6 +52,15 @@ $ dothis ssh into pod giraffe22 and container poptart73563
 $ kubectl exec -it giraffe22 -c poptart73563 -- /bin/bash
 ```
 
+```bash
+$ dothis give the file frog836.txt read and write permissions
+> 🧠 Thinking...
+$ chmod a+rw frog836.txt
+```
+
+## • Pay attention!
+GPT-3 generated commands will not always be correct. Make sure to read/edit the command before executing.
+
 ## • Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
