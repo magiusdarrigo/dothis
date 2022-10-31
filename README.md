@@ -59,7 +59,7 @@ $ chmod a+rw frog836.txt
 ```
 
 ## • Pay attention!
-GPT-3 generated commands will not always be correct. Make sure to read/edit the command before executing.
+GPT-3 generated commands will not always be correct. Make sure to read/edit the generated command before executing.
 
 ## • Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
